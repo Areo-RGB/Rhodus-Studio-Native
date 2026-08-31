@@ -1,0 +1,6 @@
+{
+  "name": "Hic Rhodus",
+  "description": "A native Android rewrite of the Hic Rhodus 2x2 color grid training application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

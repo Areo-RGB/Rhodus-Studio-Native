@@ -1,11 +1,16 @@
-<div align="center">
+# Hic Rhodus Android App
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This is a native Android application rewritten from a React WebView app.
+The application implements a 2x2 color grid training tool for testing reflexes and cognitive load.
 
-  <h1>Built with AI Studio</h2>
+## Core Features
+- A 2x2 color grid that flashes dynamically
+- Customizable flash intervals (ms), total flashes, and countdown
+- Shuffle logic for randomized color placement
+- Five pre-configured difficulty levels
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Technical Details
+- Fully rewritten from React (Web) to Kotlin & Jetpack Compose
+- Modern Android Architecture (ViewModel, StateFlow, Coroutines)
+- Removed dependency on WebView and local HTML assets
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>

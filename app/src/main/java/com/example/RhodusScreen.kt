@@ -357,8 +357,8 @@ fun SettingsPanel(
                     SettingStepper(
                         label = "Intervall",
                         value = "${uiState.intervalMs}ms",
-                        onMinus = { onIntervalChange(uiState.intervalMs - 100) },
-                        onPlus = { onIntervalChange(uiState.intervalMs + 100) }
+                        onMinus = { onIntervalChange(uiState.intervalMs - 50) },
+                        onPlus = { onIntervalChange(uiState.intervalMs + 50) }
                     )
                     SettingStepper(
                         label = "Farbwechsel Anzahl",
